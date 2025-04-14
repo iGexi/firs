@@ -1,0 +1,277 @@
+body {
+  background: linear-gradient(135deg, #3047F0, #9530F0, #3084F0);
+  color: black;
+
+}
+
+header {
+  border: solid 1px;
+  margin: 20px auto 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #9530F0, #3084F0, #309EF0);
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about {
+  border: solid 1px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #309EF0;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.interests {
+  border: solid 1px;
+  max-width: 1200px;
+  display: flex;
+  background-color: #8780F0;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.interests h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.interests ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.projects {
+  border: solid 1px;
+  max-width: 1200px;
+  display: flex;
+  background-color: #309EF0;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.img {
+  margin: 20px auto;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #7B30F0;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact {
+  border: solid 1px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #8780F0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 19px;
+}
+
+.call {
+  background: #a8dadc;
+  font-size: 18px;
+  padding: 20px 50px;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  transition: background 0.5s ease, transform 0.3s ease;
+}
+
+.call:hover,
+.call:focus {
+  background: radial-gradient(circle at center, #ff9a9e, #fad0c4);
+  transform: scale(1.05);
+  outline: none;
+}
+
+.form-section {
+  border: solid 1px;
+  margin: 0px auto 20px auto;
+  max-width: 1200px;
+  background-color: #309EF0;
+  font-size: 18px;
+  padding: 60px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+label {
+  color: #1d3557;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  height: 120px;
+  box-sizing: border-box;
+  resize: none;
+  overflow-y: auto;
+}
+
+.input-card {
+  background-color: #7B30F0;
+  padding: 30px 40px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: solid 2px;
+}
+
+.button-input-card {
+  display: block;
+  margin: 0 auto;
+  background-color: #a8dadc;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px 50px;
+  border-radius: 20px;
+  color: Black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-input-card:hover,
+.button-input-card:focus {
+  background: radial-gradient(circle at center, #ff9a9e, #fad0c4);
+  transform: scale(1.05);
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+  font-size: 26px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+.interests h2 {
+  font-size: 22px;
+}
+
+.interests ul {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.card {
+  font-size: 16px;
+}
+
+.contact h2 {
+  font-size: 22px;
+}
+
+.contact p {
+  font-size: 16px;
+}
+
+.button-input-card {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+.form-section {
+  padding: 40px 15px;
+}
+
+.input-card {
+  padding: 20px;
+}
+
+.button-input-card {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+}
+
