@@ -141,11 +141,17 @@ header h1 {
 
 .form-section {
   border: solid 1px;
-  margin: 0px auto 20px auto;
+  margin: 0 auto 20px auto;
   max-width: 1200px;
   background-color: #309EF0;
   font-size: 18px;
   padding: 60px 20px;
+}
+
+.form-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 form {
@@ -153,6 +159,7 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 
 label {
@@ -184,13 +191,14 @@ textarea {
 }
 
 .input-card {
+  width: 100%;
   background-color: #7B30F0;
-  padding: 30px 40px;
+  padding: 20px;
   border-radius: 10px;
-  flex: 1;
-  min-width: 600px;
+  max-width: 100%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border: solid 2px;
+  box-sizing: border-box;
 }
 
 .button-input-card {
